@@ -1,0 +1,1 @@
+export { LoginSmartComponent } from './lib/components/smart/login/login.smart-component';

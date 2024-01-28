@@ -1,0 +1,56 @@
+
+$primary-button-color: #88744f;
+$primary-hover-button-color: #af8e4f;
+$primary-text-color: white;
+$secondary-text-color: black;
+
+$focus-button-color: #88744f;
+
+:host {
+  align-items: center;
+  border: 0;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 21px;
+  min-height: auto;
+  position: relative;
+  text-align: center;
+  padding: 10px 30px 11px;
+  transition: ease-in-out 200ms background-color;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    box-shadow:
+      0 0 0 2px white,
+      0 0 0 4px $focus-button-color;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 0;
+  }
+}
+
+:host-context(.hot-button--primary) {
+  background-color: $primary-button-color;
+  color: $primary-text-color;
+
+  &:hover {
+    background-color: $primary-hover-button-color;
+  }
+}
+
+:host-context(.hot-button--secondary) {
+  background-color: white;
+  border: 1px solid $primary-button-color;
+  color: $secondary-text-color;
+
+  &:hover {
+    background-color: $primary-button-color;
+  }
+}

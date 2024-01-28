@@ -14,7 +14,26 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@hazeyu-ordering-tool-client/client/feat-web-shell": [
+        "libs/client/feat-web-shell/src/index.ts"
+      ],
+      "@hazeyu-ordering-tool-client/core/feat-authentication": [
+        "libs/core/feat-authentication/src/index.ts"
+      ],
+      "@hazeyu-ordering-tool-client/core/util-app-config": [
+        "libs/core/util-app-config/src/index.ts"
+      ],
+      "@hazeyu-ordering-tool-client/core/util-state": [
+        "libs/core/util-state/src/index.ts"
+      ],
+      "@hazeyu-ordering-tool-client/shared/ui-button": [
+        "libs/shared/ui-button/src/index.ts"
+      ],
+      "@hazeyu-ordering-tool-client/shared/ui-input": [
+        "libs/shared/ui-input/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

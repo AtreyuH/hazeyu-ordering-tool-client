@@ -1,0 +1,1 @@
+export { CLIENT_FEAT_WEB_SHELL_ROUTES } from './lib/routes';

@@ -1,0 +1,1 @@
+export { InputUiComponent } from './lib/components/ui/input/input.ui-component';

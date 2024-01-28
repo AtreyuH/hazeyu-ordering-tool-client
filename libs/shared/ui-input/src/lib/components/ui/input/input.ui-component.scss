@@ -1,0 +1,21 @@
+
+//TODO: find some way to add corporate theming
+$input-text-color: black;
+$input-border-color: #e4e6ee;
+$input-focus-color: #af8e4f;
+
+:host {
+  border: 1px solid $input-border-color;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  color: $input-text-color;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+
+  &:focus {
+    outline: none;
+    border-color: $input-focus-color;
+  }
+}
